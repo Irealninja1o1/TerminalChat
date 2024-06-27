@@ -1,17 +1,20 @@
-# TerminalChat
 Chat Server and Client Application
-This repository contains a basic chat server and client application implemented in C++. The server supports multiple clients, private messaging, and group messaging functionalities. Both the server and client use Windows Sockets (Winsock) for network communication.
+A simple C++ chat server and client application using Winsock. This project supports multiple clients, private messaging, and group messaging.
 
 Features
-Multithreaded Server: Handles multiple clients concurrently using threads.
-Broadcast Messaging: Clients can send messages to all connected clients.
-Private Messaging: Clients can send private messages to specific users.
-Group Messaging: Clients can create groups and send messages to all group members.
-User Management: Tracks usernames associated with each client for personalized communication.
-Getting Started
-Prerequisites
-Windows OS
-C++ Compiler (e.g., MSVC)
-Winsock2 library
-Building the Project
-Compile the Server
+Multithreaded Server: Handles multiple clients simultaneously.
+Broadcast Messaging: Send messages to all connected clients.
+Private Messaging: Directly message a specific user.
+Group Messaging: Create groups and send messages to all members.
+Usage
+Broadcast: Type and send a message.
+Private Message: /msg <username> <message>
+Create Group: /group <group_name> <username1> <username2> ...
+Group Message: /gmsg <group_name> <message>
+Building and Running
+Compile Server: cl /EHsc server.cpp /link Ws2_32.lib
+Compile Client: cl /EHsc client.cpp /link Ws2_32.lib
+Run Server: server.exe
+Run Client: client.exe
+License
+MIT License
