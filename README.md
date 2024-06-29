@@ -26,7 +26,7 @@ This is a simple terminal-based chat application implemented in C++ using socket
 Use a C++ compiler/Terminal to build the server executable on the host device.
 
 ```bash
-g++ server.cpp -o server -lws2_32
+g++ -o server server.cpp-1ws2_32 -1pthread
 
 ```
 
@@ -36,7 +36,7 @@ To compile the client code, use the following command on the devices connected t
 
 
 ```bash
-cl /EHsc client.cpp /link Ws2_32.lib
+g++ -o client client.cpp -1ws2_32 -1pthread
 ```
 
 ### Running the Application
@@ -47,7 +47,7 @@ Run the compiled server executable on host device. The server will start and lis
 
 
 ```bash
-server.exe
+./server
 ```
 
 #### Start the Client
@@ -57,7 +57,7 @@ Run the compiled client executable on devices connected to host. You will be pro
 
 
 ```bash
-client.exe
+./client
 ```
 
 ## Usage
