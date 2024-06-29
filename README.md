@@ -137,6 +137,9 @@ Key components include:
 ## Contributing
 * Contributions are welcome! If you have any improvements or bug fixes, please submit a pull request.
 
+##Credits
+* This Project was made by Rishi Kawa and Rayansh Khamesra.
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
