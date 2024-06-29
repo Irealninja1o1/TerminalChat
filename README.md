@@ -137,12 +137,14 @@ Key components include:
 ## Contributing
 * Contributions are welcome! If you have any improvements or bug fixes, please submit a pull request.
 
-##Credits
-* This Project was made by Rishi Kawa and Rayansh Khamesra.
-
-## License
+## License 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 * This project uses the Winsock2 library for network communication.
 * Inspiration for this project came from exploring basic networking concepts in C++.
+
+## Credits
+* This project is made by Rishi Kawa and Rayansh Khamesra.
+
+ 
