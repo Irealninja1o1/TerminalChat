@@ -17,6 +17,8 @@ This is a simple terminal-based chat application implemented in C++ using socket
 
 ## How to Use
 
+1.Download both the files on your device ans save it in a folder.
+2.Run the terminal on the same folder on all devices and then proceed.
 ### Server (server.cpp)
 
 Use a C++ compiler/Terminal to build the server executable on the host device.
